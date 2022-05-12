@@ -1,0 +1,9 @@
+import cv2
+import numpy as np
+from collections import deque 
+
+buffer_size=16
+pts=deque(maxlen=buffer_size)
+
+#mavi renk için nesne tespiti yapılacak.
+#mavi renk aralığı (Paintten bakılmıştır)
